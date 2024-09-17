@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+}
+
+div {
+    color: rgb(81, 172, 184);
+}
+button {
+    background-color: aqua;
+}
+
+#arquivo {
+    background-color: blue;
+    width: 1058px;
+    height: 815px;
+    display: block;
+    align-content: center;
+    margin: 0px;
+}
+
+#arquivo_content {
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    height: 94%;
+    width: 94%;
+    align-self: center;
+    align-items: flex-start;
+}
+
+.title {
+    display: flex;
+    color: aqua;
+    width: 100%;
+    align-items: center;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    margin: 0 5% 0 0;
+    font-size: 1.3rem;
+}
+h2 {
+    margin: .2rem 0 .2rem 0;
+    font-size: .7rem;
+}
+h3 {
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+    font-size: .6rem;
+}
+
+.titleGrid {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 6%;
+    background-color: rgb(40, 40, 167);
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleGridElement {
+    height: 100%;
+    background-color: rgb(92, 92, 187);
+
+}
+
+.elementHeader {
+    position: relative;
+    display: flex;
+    background-color:rgb(52, 52, 131);
+    border: solid 1px black;
+    height: 40%;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.elementBody {
+    height: 55%;
+    font-size: 20px;
+    text-align: center;
+    border: solid 1px black;
+    border-top: 0;
+}
+
+/* primeiro grid */
+
+.municipio {
+    margin-right: -3px;
+    width: 26%;
+}
+
+.codigo {
+    width: 30%;
+}
+
+.categ {
+    width: 9%;
+}
+
+.zona {
+    width: 18%;
+}
+
+.tipo {
+    width: 6.4%;
+}
+
+.concluida {
+    width: 6.4%;
+}
+
+/* segundo grid */
+
+.data {
+    width: 18%;
+}
+
+.ciclo {
+    width: 15%;
+}
+
+.atividade {
+    width: 55%;
+}
+
+/* Ultima linha de titulo dentro de container*/
+
+.onlyTitle {
+    width: 100%;
+    height: fit-content;
+}
+
+.onlyTitleContent {
+    padding: 1;
+}
+
+/* full table */
+
+.bigGridTitle {
+    height: 14%;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.type4 {
+    color: rgb(26, 24, 24);
+    height: 100%;
+    background-color: cadetblue;
+    width: 4%;
+    border: 1px solid rgb(0, 0, 0);
+    border-left: 0;
+}
+
+.normalText {
+    text-align: center;
+}
+
+.sidewaysText{
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    align-items: center;
+    transform: rotate(180deg);
+    border: 1px solid rgb(0, 0, 0);
+    border-right: 0;
+
+}
+
+.short1 {
+    flex: 1;
+}
+.short2 {
+    flex: 1.6;
+}
+.short3{
+    flex: 1.8;
+}
+
+.long1 {
+    flex: 8;
+}

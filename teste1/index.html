@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js" 
+        integrity="sha512-MpDFIChbcXl2QgipQrt1VcPHMldRILetapBl5MPCA9Y8r7qvlwx1/Mc9hNTzY+kS5kX6PdoDq41ws1HiVNLdZA==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer
+    "></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Teste geracao de pdf</title>
+</head>
+<body>
+    <div id="arquivo">
+        <div id="arquivo_content">
+            <div class="title">
+                <h1>SUS</h1> 
+                <div class="subtitle">
+                    <h2>PROGRAMA NACIONAL DE CONTROLE DA DENGUE - PNCD</h2>
+                    <h3>RESUMO DIARIO DO SERVICO ANTIVETORIAL</h3>
+                </div>
+            </div>
+            <div class="titleGrid">
+                <div class="municipio titleGridElement">
+                    <div class="elementHeader">Municipio</div>
+                    <div class="elementBody">Uniao da Vitoria</div>
+                </div>
+                <div class="codigo titleGridElement">
+                    <div class="elementHeader">Codigo e nome da Localidade</div>
+                    <div class="elementBody"></div>
+                </div>
+                <div class="categ titleGridElement">
+                    <div class="elementHeader">Categ. Localid.</div>
+                    <div class="elementBody"></div>
+                </div>
+                <div class="zona titleGridElement">
+                    <div class="elementHeader">Zona</div>
+                    <div class="elementBody"></div>
+                </div>
+                <div class="tipo titleGridElement">
+                    <div class="elementHeader">Tipo</div>
+                    <div class="elementBody"></div>
+                </div>
+                <div class="concluida titleGridElement">
+                    <div class="elementHeader">Concluida</div>
+                    <div class="elementBody"></div>
+                </div>
+            </div>
+            <div class="titleGrid">
+                <div class="data titleGridElement">
+                    <div class="elementHeader">Data da Atividade</div>
+                    <div class="elementBody"></div>
+                </div>
+                <div class="ciclo titleGridElement">
+                    <div class="elementHeader">Ciclo/Ano</div>
+                    <div class="elementBody"></div>
+                </div>
+                <div class="atividade titleGridElement">
+                    <div class="elementHeader">Atividade</div>
+                    <div class="elementBody"></div>
+                </div>
+            </div>
+            <div class="titleGrid onlyTitle">
+                <div class="titleGridElement onlyTitle">
+                    <div class="elementHeader onlyTitleContent">
+                        PESQUISA ENTOMOLOGICA / TRATAMENTO
+                    </div>
+                </div>
+            </div>
+            <div class="titleGrid bigGridTitle">
+                <div class="numero type4 short2 normalText">N* do quart.</div>
+                <div class="numero type4 short1 sidewaysText">Seq.</div>
+                <div class="numero type4 short1 sidewaysText">Lado</div>
+                <div class="numero type4 long1 normalText">Nome do Logradouro</div>
+                <div class="numero type4 short2"></div>
+                <div class="numero type4 short1"></div>
+                <div class="numero type4 short1"></div>
+                <div class="numero type4 short1"></div>
+                <div class="numero type4 short3"></div>
+                <div class="numero type4 short1"></div>
+                <div class="numero type4 short1"></div>
+                <div class="numero type4 long1"></div>
+                <div class="numero type4 short2"></div>
+                <div class="numero type4 long1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="download">Baixar arquivo</button>
+    <div id="element">
+        <p>teste</p>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
