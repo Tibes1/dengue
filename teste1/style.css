@@ -150,6 +150,7 @@ h3 {
 .bigGridTitle {
     height: 14%;
     display: flex;
+    margin-bottom: 0;
 }
 
 .type4 {
@@ -233,18 +234,95 @@ h3 {
     background-color: azure;
 }
 
-/* dumb border fix*/
-.border-right {
+table {
+    border-collapse: collapse;
+    width: 994px;
+    height: 450px;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+    padding: 0;
+}
+
+/* Definição das larguras das colunas */
+.Grid1 {
+    width: 17.3px;
+}
+.Grid2 {
+    width: 18.7px;
+}
+.Grid3 {
+    width: 21.5px;
+}
+.Grid3-1 {
+    width: 20.7px;
+}
+.Grid4 {
+    width: 22.7px;
+}
+.Grid5 {
+    width: 23.2px;
+}
+.Grid6 {
+    width: 25px;
+}
+.Grid7 {
+    width: 25.7px;
+}
+.Grid8 {
+    width: 28.2px;
+}
+.Grid9 {
+    width: 32.1px;
+}
+.Grid10 {
+    width: 38.1px;
+}
+.Grid11 {
+    width: 38.8px;
+}
+.Grid12 {
+    width: 43.3px;
+}
+.Grid13 {
+    width: 155.7px;
+}
+
+
+/* Definição das alturas das linhas */
+td {
+    height: 20px;
+}
+
+/* dumb remove border */
+.no-border-right {
     border-right:0;
 }
-.border-left {
+.no-border-left {
     border-left:0;
 }
-.border-top {
+.no-border-top {
     border-top:0;
 }
-.border-bottom {
+.no-border-bottom {
     border-bottom:0;
 }
 
+/* dumb add border */
 
+.border-right {
+    border-right:1px solid black;
+}
+.border-left {
+    border-left:1px solid black;
+}
+.border-top {
+    border-top:1px solid black;
+}
+.border-bottom {
+    border-bottom:1px solid black;
+}
