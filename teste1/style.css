@@ -142,7 +142,7 @@ h3 {
     height: fit-content;
 }
 .onlyTitleContent {
-    padding: 1;
+    padding: 3px;
 }
 
 /* full table */
@@ -214,10 +214,15 @@ h3 {
     margin: 0;
     height: 73%;
 }
+.smallType4Wraper2 {
+    margin: 0;
+    height: 75%;
+}
 
 .long2Title {
-    height: 15%;
+    height: 17%;
     min-height: 17px;
+    max-height: 18px;
 }
 .long2Subtitle {
     width: 70%;
@@ -227,16 +232,21 @@ h3 {
     height: 96%;
 }
 
-.wrapper {
+.wrapper1 {
     width: 100%;
-    height: 83%;
+    height: 82%;
+    display: flex;
+    background-color: azure;
+}
+.wrapper2 {
+    width: 100%;
+    height: 80%;
     display: flex;
     background-color: azure;
 }
 
 table {
     border-collapse: collapse;
-    width: 994px;
     height: 450px;
     table-layout: fixed;
 }
@@ -246,56 +256,97 @@ th, td {
     text-align: center;
     font-size: 12px;
     padding: 0;
+    border-bottom: 0px;
+    border-right: 0px;
 }
 
 /* Definição das larguras das colunas */
 .Grid1 {
-    width: 17.3px;
+    width: 18px;
 }
 .Grid2 {
-    width: 18.7px;
+    width: 20px;
 }
 .Grid3 {
-    width: 21.5px;
-}
-.Grid3-1 {
-    width: 20.7px;
+    width: 22px;
 }
 .Grid4 {
-    width: 22.7px;
+    width: 23px;
 }
 .Grid5 {
-    width: 23.2px;
+    width: 24px;
 }
 .Grid6 {
     width: 25px;
 }
 .Grid7 {
-    width: 25.7px;
+    width: 26px;
 }
 .Grid8 {
-    width: 28.2px;
+    width: 29px;
 }
 .Grid9 {
-    width: 32.1px;
+    width: 34px;
 }
 .Grid10 {
-    width: 38.1px;
+    width: 39px;
 }
 .Grid11 {
-    width: 38.8px;
+    width: 40px;
 }
 .Grid12 {
-    width: 43.3px;
+    width: 41px;
 }
 .Grid13 {
-    width: 155.7px;
+    width: 44px;
+}
+.Grid13-1 {
+    width: 46px;
+}
+.Grid14 {
+    width: 164px;
 }
 
 
 /* Definição das alturas das linhas */
 td {
     height: 20px;
+}
+
+/* linha de assinaturas */
+
+.linhaAssinaturas {
+    margin-top: 8px;
+}
+.assinatura {
+    width: 31%;
+    border: 1px solid black;
+}
+.legendaTipo {
+    width: 23%;
+    border: 1px solid black;
+}
+.legendaPendencia {
+    width: 13%;
+    border: 1px solid black;
+}
+
+.sideTitle {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    background-color: rgb(75, 40, 202);
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.sideTitleShort1 {
+    width: 60px;
+}
+.sideTitleShort2 {
+    width: 65px;
 }
 
 /* dumb remove border */
