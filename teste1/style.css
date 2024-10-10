@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    border-collapse: collapse;
     font-family: Arial, sans-serif;
 }
 
@@ -11,7 +10,7 @@ button {
     background-color: aqua;
 }
 
-#arquivo {
+.arquivo {
     background-color: blue;
     width: 1058px;
     height: 816px;
@@ -19,7 +18,7 @@ button {
     align-content: center;
     margin: 0px;
 }
-#arquivo_content {
+.arquivo_content {
     background-color: wheat;
     display: flex;
     flex-direction: column;
@@ -244,8 +243,12 @@ h3 {
     display: flex;
     background-color: azure;
 }
+table{
+    height: 100%;
+    width: 100%;
+}
 
-table {
+.mainTable {
     border-collapse: collapse;
     height: 450px;
     table-layout: fixed;
@@ -348,6 +351,116 @@ td {
 .sideTitleShort2 {
     width: 65px;
 }
+
+/* pagina 2 */
+.resumoCampo1 {
+    height: 10%;
+}
+.resumoCampo2 {
+    height: 20%;
+    justify-content: space-between;
+}
+.resumoCampo3 {
+    height: 16%;
+    justify-content: space-between;
+}
+
+/* linha 1 */
+
+.wrapperGridDuasLinhas {
+    height: 66%;
+}
+.wrapperGridDuasLinhasResumo2 {
+    height: 75%;
+}
+.wrapperGridTresLinhasResumo {
+    height: 78%;
+}
+.wrapperGridQuatroLinhasResumo {
+    height: 82%;
+}
+
+.smallTitleMaxHeight {
+    max-height: 22px;
+}
+
+.imoveis1 {
+    width: 26%;
+    margin-right: 6px;
+}
+.imoveis2 {
+    width: 17%;
+    margin-right: 16px;
+}
+.tubitos{
+    width: 5%;
+    margin-right: 4px;
+}
+.pendencia{
+    width: 8%;
+}
+.depositos{
+    width: 36%;
+}
+
+.halfRemaining {
+    height: 50%;
+}
+.thirdRemaining {
+    height: 33%;
+}
+.quarterRemaining {
+    height: 25%;
+}
+
+/* linha2 */
+.resumoDepositos {
+    width: 52%;
+    justify-content: space-between;
+}
+
+.resumoDepositoElement {
+    border: 1px black solid;
+    color: rgb(7, 12, 10);
+    height: 60%;
+    width: 75%;
+}
+.resumoAdulticidaElement {
+    color: rgb(7, 12, 10);
+    height: 60%;
+    width: 20%;
+    margin-right: 14px;
+}
+
+.quarteiroes {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.quarteiroesElement{
+    width: 100%;
+    height: 46%;
+}
+.quarteiroesLabElement{
+    width: 48%;
+    height: 100%;
+}
+
+/* Linha 4 */
+.especime1 {
+    width: 45%;
+    height: 80%;
+}
+.especime2 {
+    width: 30%;
+}
+.exemplares {
+    width: 20%;
+}
+
+
+
 
 /* dumb remove border */
 .no-border-right {

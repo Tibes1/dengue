@@ -1,6 +1,8 @@
-var element = document.getElementById('arquivo');
+var element1 = document.getElementById('arquivo1');
+var element2 = document.getElementById('arquivo2');
 
-const button = document.getElementById('download')
+const button1 = document.getElementById('download1')
+const button2 = document.getElementById('download2')
 
 var opt = {
     margin:       0,
@@ -10,11 +12,12 @@ var opt = {
     jsPDF:        { unit: 'in', format: 'letter', orientation: 'landscape' }
 };
 
-button.addEventListener("click", () => {
-    handleclick(element)
+button1.addEventListener("click", () => {
+    html2pdf().set(opt).from(this.element1).save()
     console.log('teste1')
 })
+button2.addEventListener("click", () => {
+    html2pdf().set(opt).from(this.element2).save();
+    console.log('teste2')
+})
 
-function handleclick(element) {
-    html2pdf().set(opt).from(this.element).save();
-}
